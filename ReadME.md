@@ -12,8 +12,8 @@ On Windows 10 you will see 'Open with Code' by pressing only the 'Right Click' o
 - Dont forget to add '.gitignore' file, lets add together.
 - The command for gitignore : $ touch .gitignore
 - Open the .gitignore and add line by line
-node_modules
-.env
+"node_modules"
+".env"
 These files will be ignored during the git push command, will not be published on Github.
 
 - Now lets start using TwilioAPI to send SMS
